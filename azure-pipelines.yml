@@ -46,8 +46,8 @@
 trigger:
 - main
 
-pool:
-  vmImage: ubuntu-latest
+pool: mycomputeragent
+  # vmImage: ubuntu-latest
 strategy:
   matrix:
     Python38:
